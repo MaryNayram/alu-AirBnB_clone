@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-"""Class City that inherits from the BaseModel class"""
+"""Class State that inherits from the BaseModel class"""
 
 from models import BaseModel
 
 
-class City(BaseModel):
-    """City class"""
+class State(BaseModel):
+    """State class"""
 
-    state_id = ""
     name = ""
 
     def __init__(self, *args, **kwargs):
