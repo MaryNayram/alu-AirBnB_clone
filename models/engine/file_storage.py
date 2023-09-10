@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
 import json
 from os import path
 
@@ -41,14 +40,3 @@ class FileStorage:
                 for data in dataset.values():
                     name_of_class = data['__class__']
                     self.new(eval(name_of_class + "(**" + str(data) + ")"))
-=======
-"""Defines the FileStorage class."""
-import json
-from models.base_model import BaseModel
-from models.user import User
-from models.state import State
-from models.city import City
-from models.place import Place
-from models.amenity import Amenity
-from models.review import Review
->>>>>>> 40e07bb0bc8d2b22c2ecf1f76fc9790eae1e9dbc
